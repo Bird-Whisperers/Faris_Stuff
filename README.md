@@ -22,5 +22,11 @@ python tools/process.py \
 python tools/split.py \
   --dir photos/combined
   
+# Creating image pairs from existing images
+python tools/process.py \
+  --input_dir a \
+  --b_dir b \
+  --operation combine \
+  --output_dir c
   
   
